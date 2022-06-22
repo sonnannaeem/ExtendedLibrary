@@ -1,5 +1,5 @@
 public struct ExtendedLibrary {
-    public static func extensionTest() {
-        print("EXTENSION WORKS")
+    public static func extensionTest(text: String) {
+        print("EXTENSION WORKS: " + text)
     }
 }
